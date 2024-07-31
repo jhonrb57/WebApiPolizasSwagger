@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\WebApiPolizasSwagger\\WebApiPolizasSwagger.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\BaseDatos\\BaseDatos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\BaseDatos\\BaseDatos.csproj",
+        "projectName": "BaseDatos",
+        "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\BaseDatos\\BaseDatos.csproj",
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {}
+      }
+    },
+    "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\DataObjects\\DataObjects.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\DataObjects\\DataObjects.csproj",
+        "projectName": "DataObjects",
+        "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\DataObjects\\DataObjects.csproj",
+        "frameworks": {
+          "net481": {
+            "projectReferences": {
+              "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\BaseDatos\\BaseDatos.csproj": {
+                "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\BaseDatos\\BaseDatos.csproj"
+              },
+              "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\Models\\Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {}
+      }
+    },
+    "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\Models\\Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\Models\\Models.csproj",
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {}
+      }
+    },
+    "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\WebApiPolizasSwagger\\WebApiPolizasSwagger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\WebApiPolizasSwagger\\WebApiPolizasSwagger.csproj",
+        "projectName": "WebApiPolizasSwagger",
+        "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\WebApiPolizasSwagger\\WebApiPolizasSwagger.csproj",
+        "packagesPath": "C:\\Users\\JHON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\WebApiPolizasSwagger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\BaseDatos\\BaseDatos.csproj": {
+                "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\BaseDatos\\BaseDatos.csproj"
+              },
+              "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\DataObjects\\DataObjects.csproj"
+              },
+              "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
