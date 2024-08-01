@@ -105,7 +105,7 @@
               "RelativeDocumentMoniker": "DataObjects\\PolizaDataObject.cs",
               "ToolTip": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\DataObjects\\PolizaDataObject.cs",
               "RelativeToolTip": "DataObjects\\PolizaDataObject.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwMQAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T00:23:13.297Z",
               "EditorCaption": ""
@@ -130,7 +130,7 @@
               "RelativeDocumentMoniker": "WebApiPolizasSwagger\\Controllers\\PolizaController.cs",
               "ToolTip": "C:\\Users\\JHON\\source\\repos\\WebApiPolizasSwagger\\WebApiPolizasSwagger\\Controllers\\PolizaController.cs",
               "RelativeToolTip": "WebApiPolizasSwagger\\Controllers\\PolizaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA8AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwA8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T00:19:58Z",
               "EditorCaption": ""
@@ -145,7 +145,8 @@
               "RelativeToolTip": "BaseDatos\\app.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-31T00:15:25.757Z"
+              "WhenOpened": "2024-07-31T00:15:25.757Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
