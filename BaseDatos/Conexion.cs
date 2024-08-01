@@ -3,9 +3,8 @@ using Microsoft.Extensions.Configuration;
 
 namespace BaseDatos
 {
-    public class Conexion//:DbContext
+    public class Conexion
     {
-        //public static string ConexionBd = ConfigurationManager.ConnectionStrings["ConexionBd"].ToString();
         public string ConexionBd()
         {
             var builder = new ConfigurationBuilder()

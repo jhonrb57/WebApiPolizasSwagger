@@ -9,7 +9,7 @@ namespace DataObjects
 {
     public class PolizaDataObject
     {
-        public static List<Poliza> Listar(string conexionBd)
+        public List<Poliza> Listar(string conexionBd)
         {
             List<Poliza> listaPolizas = new List<Poliza>();
             using (SqlConnection context = new SqlConnection(conexionBd))
@@ -67,7 +67,7 @@ namespace DataObjects
             }
         }
 
-        public static Poliza Obtener(string conexionBd, int numeroPoliza)
+        public Poliza Obtener(string conexionBd, int numeroPoliza)
         {
             Poliza poliza = new Poliza();
             using (SqlConnection context = new SqlConnection(conexionBd))
@@ -128,7 +128,7 @@ namespace DataObjects
             }
         }
 
-        public static bool Registrar(string conexionBd, Poliza poliza)
+        public bool Registrar(string conexionBd, Poliza poliza)
         {
             using (SqlConnection context = new SqlConnection(conexionBd))
             {
@@ -161,7 +161,7 @@ namespace DataObjects
             }
         }
 
-        public static bool Modificar(string conexionBd, Poliza poliza)
+        public bool Modificar(string conexionBd, Poliza poliza)
         {
             using (SqlConnection context = new SqlConnection(conexionBd))
             {
@@ -194,7 +194,7 @@ namespace DataObjects
             }
         }
 
-        public static bool Eliminar(string conexionBd, int id)
+        public bool Eliminar(string conexionBd, int id)
         {
             using (SqlConnection context = new SqlConnection(conexionBd))
             {
