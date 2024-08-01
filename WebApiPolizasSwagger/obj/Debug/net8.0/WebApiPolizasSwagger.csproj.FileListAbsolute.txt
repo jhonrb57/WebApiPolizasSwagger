@@ -58,3 +58,4 @@ C:\Users\JHON\source\repos\WebApiPolizasSwagger\WebApiPolizasSwagger\obj\Debug\n
 C:\Users\JHON\source\repos\WebApiPolizasSwagger\WebApiPolizasSwagger\obj\Debug\net8.0\WebApiPolizasSwagger.genruntimeconfig.cache
 C:\Users\JHON\source\repos\WebApiPolizasSwagger\WebApiPolizasSwagger\obj\Debug\net8.0\ref\WebApiPolizasSwagger.dll
 C:\Users\JHON\source\repos\WebApiPolizasSwagger\WebApiPolizasSwagger\bin\Debug\net8.0\DataObjects.dll.config
+C:\Users\JHON\source\repos\WebApiPolizasSwagger\WebApiPolizasSwagger\obj\Debug\net8.0\WebApiPolizasSwagger.sourcelink.json
