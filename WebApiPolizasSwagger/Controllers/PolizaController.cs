@@ -9,8 +9,8 @@ namespace WebApiPolizasSwagger.Controllers
     [ApiController]
     public class PolizaController : ControllerBase
     {
-        private readonly Conexion conexionBd = new Conexion();
-        PolizaDataObject polizaDO = new PolizaDataObject();
+        private readonly Conexion conexionBd = new();
+        PolizaDataObject polizaDO = new();
 
         // GET: api/<PolizaController>
         [HttpGet]
